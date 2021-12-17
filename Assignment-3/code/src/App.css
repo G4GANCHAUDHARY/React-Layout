@@ -1,0 +1,126 @@
+.site-container, .body, .customer-info {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Header, .product-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.order-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.Header{
+    background-color: rgb(247, 245, 245);
+}
+
+.arrow {
+    background-color: rgb(247, 245, 245);
+    border: 0px;
+    font-size: 40px;
+    color: gray;
+    margin: 15px 0px 15px 40px;
+}
+
+.arrow:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.name{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.id {
+    font-size: larger;
+    font-weight: bold;
+    color: gray;
+}
+
+.print {
+    width: 10%;
+    margin: 30px;
+    color: white;
+    background-color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.print:hover {
+    color: black;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.customer-info{
+    border: 2px solid rgb(247, 245, 245);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Appoin, .email, .phone, .statustitle, .doortitle, .timetitle {
+    font-weight: bold;
+}
+
+.order-info{
+    margin: 15px;
+    padding: 30px;
+    background-color: rgb(224, 223, 223);
+    border-radius: 5px;
+}
+
+.o1,.o2,.o3{
+    width: 33%;
+}
+
+.status{
+    margin: 0px 0px 0px -20px;
+}
+
+.product-list{
+    border: 2px solid rgb(247, 245, 245);
+    margin: 15px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+input {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+
+img {
+    width:200px;
+    height: 200px;
+}
+
+.product-name{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.product-desc{
+    color: gray;
+    font-size: larger;
+}
+
+.Rarrow{
+    background-color: white;
+    border: 0px;
+    font-size: 40px;
+    color: gray;
+    margin: 15px 0px 15px 40px;
+}
+
+.Rarrow:hover {
+    color: black;
+    font-weight: bold;
+}
