@@ -4,9 +4,24 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const employee={
+  Name: "Alan Ford",
+  Eid: "00005152",
+  Appointment: "9:00 (24-05-2016)",
+  Email: "alan.form@email.nl",
+  Phone: "+31123456789",
+  Status: "In progress",
+  Door: "Mark",
+  Time: "10:30 (24-05-2016)",
+  ProductImg: "https://www.w3schools.com/howto/img_avatar.png",
+  ProductName: "Boltaart Bosbessen",
+  ProductDescr: "Overheerlijke Boltaart met Bosbessen uit de keuken van de Bijenkorf"
+}
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App EMP={employee}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
